@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<title>Volta Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("voltapicture.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">VOLTA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">TEAM</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">HOW</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">1.001 final project</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Volta<br>Project</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"></span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT VOLTA PROJECT </span></h5>
+    <p>What drives the Volta Project is the fact that slavery remains a modern day problem, with an estimate 46 Million today working under violent and harsh conditions for little to no pay.  Children represent 26% of the slaves today.</p>
+    <p>Data from the Ghana Statistical Service indicate that 1.9 million children aged 5-17 are engaged in child labour with 1.2 million of the children engaged in hazardous labour.  On Lake Volta in Ghana, child slavery is rampant in the fishing industry.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"You could go to Lake Volta and see many signs of poverty and deprivation …but what is much harder to see is the profound violence and oppression heaped upon the thousands of children trapped as slaves in the fishing industry." </i></p>
+      <p>– Philip Langford, International Justice Mission, Vice President of Regional Operations, Africa</p>
+    </div>
+        <p>Volta Project's purpose is to provide an easy to use interface for eyewitnesses of child slavery around Lake Volta to quickly, easily, and anonymously report nefarious activity.  These reports will generate a map of suspicious activity for NGOs and government officials to use in investigating cases of child slavery.</p>
+    <img src="voltapicture2.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE TEAM</span></h5>
+      <p>The Volta Project team comprises Jose Garza and Tim Chiang, both first year MIT graduate students in the System Design and Management program.</p>
+
+<div class="w3-half">
+  <img src="Jose.jpg" alt="SDM" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Jose Garza</h3>
+  <p>MIT SDM Student</p>
+</div>
+
+<div class="w3-half">
+  <img src="tim.png" alt="SDM" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Tim Chiang</h3>
+  <p>MIT SDM Student</p>
+</div>
+
+    <p>Our hope is that this application can be used to aid in the rescue of enslaved children on the lake.  Like most big challenges, the problem of child slavery is multi-faceted.  No single solution can fix the problem overnight, but a tool that provides a voice - a call for help to those most in need, just might help.</p>
+
+    <img src="voltapicture3.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">HOW TO REPORT</span></h5>
+    <p>We aim to gather reports of child slavery activity around the Lake Volta region.</p>
+    <div id="googleMap" class="w3-sepia" style="width:100%;height:400px;"></div>
+    <p><span class="w3-tag">REPORT!</span> Child slavery is all around the Lake Volta area.  If you think you are observing the use of child slavery on fishing boats or along the shoreline of the lake, take action!  Simply open the application on your phone and allow the application to have access to your phone's location.  Provide a description of what you see, and press the "Report" button.  That's it!  You're report is anonymized so do not fear reprocussions of submitting a report.</p>
+
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-small">
+  <p>Tools:</p>
+  <p>Mapbox API</p>
+  <p>Google Maps API</p>
+  <p>FireBase DB</p>
+  <p>Reference:</p>
+  <p>https://www.ijm.org/where-we-work/ghana</p>
+  <p>Photo Credits: </p>
+  <p>http://www.skicenkovice.info/skilnew-lake-volta-slavery.adp</p>
+    <p>https://www.neweurope.eu/article/online-mappers-look-for-child-slaves-in-ghana/</p>
+    <p>http://news.ijm.org/24-children-forced-to-work-on-lake-volta-are-now-free</p>
+
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(6.450411558010179, 0.0823974609375);
+  var mapOptions= {
+    center:myCenter,
+    zoom:10, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQtnAl7bzJI3iTYlFlR8rU_YMUl9ebAfg&callback=myMap"></script>
+
+
+</body>
+</html>
